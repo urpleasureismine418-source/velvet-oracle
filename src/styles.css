@@ -1,0 +1,229 @@
+:root{--black:#030305;--blue:#4f9ff0;--pale:#a4ccf5;--ivory:#f1ede5;--gold:#c8b78c;--muted:#568fc9;--serif:'Cormorant Garamond',Georgia,serif;--display:'Cinzel Decorative','Cormorant Garamond',serif;--hairline:rgba(79,159,240,.45)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:76px}body{margin:0;background:var(--black);color:var(--pale);font-family:var(--serif);font-weight:400;-webkit-font-smoothing:antialiased}button,input,textarea{font:inherit}button,a{-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration:none}.site-shell{position:relative;overflow:hidden;min-height:100vh;background:radial-gradient(ellipse at 50% 18%,rgba(22,43,66,.16),transparent 42%),var(--black)}.side-ornament{position:absolute;z-index:0;top:80px;width:clamp(115px,17vw,250px);height:calc(100% - 240px);min-height:700px;pointer-events:none;opacity:.48}.side-ornament.left{left:-65px}.side-ornament.right{right:-65px;transform:scaleX(-1)}main,header,footer{position:relative;z-index:1}.topbar{height:82px;max-width:1280px;margin:auto;padding:0 6.5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(79,159,240,.14)}.wordmark,.footer-mark{font-family:var(--display);font-size:20px;letter-spacing:.12em;color:var(--ivory)}.wordmark span,.footer-mark span{color:var(--blue);padding:0 3px}.nav{display:flex;gap:clamp(24px,5vw,72px);align-items:center}.nav a,.footer-links a{font-size:10px;letter-spacing:.18em;color:var(--pale);transition:color .25s}.nav a:hover,.footer-links a:hover{color:white}.menu-toggle{display:none;background:none;border:0;color:var(--blue)}.hero{text-align:center;min-height:760px;padding:88px 20px 80px;display:flex;align-items:center;flex-direction:column}.eyebrow{font-size:10px;letter-spacing:.24em;color:var(--blue)}.eyebrow span{padding:0 12px;color:var(--gold)}.sigil{width:156px;height:156px;margin:45px auto 24px;position:relative;color:var(--blue);animation:appear 1.4s ease both}.sigil svg{width:100%;height:100%;stroke:currentColor;stroke-width:.8;opacity:.92}.sigil-star{position:absolute;color:var(--gold);font-size:14px}.s1{top:12px;right:9px}.s2{bottom:16px;left:6px}.hero h1{font-family:var(--display);font-size:clamp(43px,7vw,82px);font-weight:400;letter-spacing:.045em;line-height:1.12;color:var(--ivory);margin:0}.hero h1 em,.reading-heading h2 em,.intro-grid h2 em,.closing-section h2 em{font-weight:300;color:var(--blue);font-style:italic}.flourish{width:260px;height:34px;color:var(--blue);display:block}.hero-flourish{margin:24px auto 18px}.hero-copy{font-size:19px;line-height:1.5;font-weight:300;letter-spacing:.025em;color:#b9d8fb;margin:0}.hero-meta{display:flex;gap:18px;align-items:center;margin-top:39px;font-size:8px;letter-spacing:.2em;color:#4e87c3}.hero-meta i{font-style:normal;color:var(--gold)}.text-link{margin-top:43px;font-size:9px;letter-spacing:.23em;color:var(--pale);border-bottom:1px solid rgba(79,159,240,.48);padding:0 0 9px;transition:color .25s,border-color .25s}.text-link:hover{color:white;border-color:white}.text-link span{padding-left:12px;color:var(--gold)}.intro-section,.reading-section{max-width:1030px;margin:0 auto;padding:82px 8% 112px;border-top:1px solid rgba(79,159,240,.18)}.section-label{display:flex;align-items:center;gap:18px;justify-content:center;font-size:9px;letter-spacing:.22em;color:#568fc9}.section-label>span:first-child{color:var(--gold)}.section-label .flourish{width:104px;height:17px;opacity:.75}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:11%;align-items:center;margin-top:70px}.dropcap{font-family:var(--display);font-size:20px;color:var(--gold);margin:0 0 12px}.intro-grid h2,.reading-heading h2,.closing-section h2{font-family:var(--serif);font-weight:300;font-size:clamp(36px,5vw,54px);line-height:1.05;color:var(--ivory);margin:0;letter-spacing:-.015em}.intro-grid h2 em{font-size:1.02em}.intro-text{max-width:380px}.intro-text p{font-size:17px;line-height:1.65;color:#91bce8;font-weight:300;margin:0 0 15px}.small-note{font-size:8px;letter-spacing:.15em;color:var(--gold)}.reading-section{padding-top:77px;padding-bottom:125px}.reading-heading{text-align:center;margin:65px 0 38px}.reading-heading .eyebrow{font-size:9px;margin-bottom:17px}.reading-heading h2{font-size:clamp(36px,5vw,52px)}.reading-heading>p:last-child{font-size:16px;color:#78aee8;font-weight:300;margin-top:15px}.ritual-form-wrap{max-width:650px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}.deck-preview{height:270px;position:relative;display:flex;justify-content:center;align-items:center}.preview-card{position:absolute;width:132px;height:202px;padding:7px;background:#080c12;border:1px solid #3979b8;box-shadow:0 0 0 3px #080c12,0 0 0 4px rgba(79,159,240,.38)}.preview-card .back-art{width:100%;height:100%}.p-left{transform:translateX(-54px) rotate(-13deg)}.p-center{z-index:2;transform:translateY(-8px)}.p-right{transform:translateX(54px) rotate(13deg)}.orbit-star{position:absolute;bottom:12px;color:var(--gold);font-size:17px}.back-art{width:100%;height:100%;background:#080d14;border:1px solid rgba(200,183,140,.68);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.back-art:before,.back-art:after{content:"";position:absolute;inset:9px;border:1px solid rgba(79,159,240,.72);transform:rotate(45deg) scale(.72)}.back-art:after{transform:rotate(0);inset:17px;border-color:rgba(200,183,140,.55)}.back-inner{display:flex;flex-direction:column;align-items:center;gap:11px;color:var(--blue);font-family:var(--display);position:relative;z-index:1}.back-inner b{font-size:43px;font-weight:400;line-height:1;text-shadow:0 0 12px rgba(79,159,240,.22)}.back-inner i{font-style:normal;color:var(--gold);font-size:10px}.back-inner span{font-size:9px}.ritual-form{display:flex;flex-direction:column;gap:11px}.ritual-form label{font-size:9px;letter-spacing:.16em;color:var(--pale);margin-top:8px}.ritual-form label span{font-size:8px;color:#5488c0}.ritual-form input,.ritual-form textarea{width:100%;background:rgba(0,0,0,.2);border:1px solid rgba(79,159,240,.4);border-radius:0;color:var(--ivory);padding:11px 13px;outline:none;font-size:16px;font-weight:300;resize:vertical;transition:border-color .25s,box-shadow .25s}.ritual-form input::placeholder,.ritual-form textarea::placeholder{color:#5688bc;font-style:italic}.ritual-form input:focus,.ritual-form textarea:focus{border-color:var(--blue);box-shadow:0 0 0 1px rgba(79,159,240,.12)}.outline-button{height:45px;padding:0 20px;background:transparent;border:1px solid rgba(79,159,240,.72);border-radius:0;color:var(--pale);font-family:var(--display);font-size:9px;letter-spacing:.14em;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;transition:all .25s}.outline-button:hover:not(:disabled){border-color:#c5e3ff;color:white;box-shadow:0 0 13px rgba(79,159,240,.13)}.outline-button:disabled{opacity:.38;cursor:not-allowed}.outline-button span{color:var(--gold)}.ritual-form .outline-button{margin-top:12px}.form-footnote{text-align:center;font-size:8px;letter-spacing:.13em;color:#4f83b8;margin:4px 0}.results{max-width:850px;margin:0 auto;text-align:center}.result-greeting{font-size:20px;font-style:italic;color:var(--ivory);margin:0 0 36px}.cards-row{display:grid;grid-template-columns:repeat(3,1fr);gap:35px;max-width:700px;margin:0 auto}.drawn-card{opacity:0;transform:translateY(22px);}.drawn-card.revealed{animation:cardIn .8s ease forwards}.card-position{font-size:8px;letter-spacing:.2em;color:var(--gold);margin-bottom:14px}.tarot-frame{width:100%;max-width:184px;aspect-ratio:2/3;margin:auto;padding:6px;background:#080b10;border:1px solid rgba(200,183,140,.8);box-shadow:0 0 0 3px #080b10,0 0 0 4px rgba(79,159,240,.3);position:relative}.tarot-frame .card-art{width:100%;height:100%;display:block}.card-roman{position:absolute;bottom:10px;left:0;right:0;text-align:center;font-family:var(--display);font-size:9px;color:#8f7951}.card-caption h3{font-family:var(--display);font-size:15px;font-weight:400;color:var(--ivory);letter-spacing:.06em;margin:19px 0 5px}.card-caption p{font-size:12px;color:#78aee8;margin:0}.card-index{display:block;font-size:9px;color:var(--gold);margin-top:12px}.shuffling-note{font-size:9px;letter-spacing:.2em;color:var(--gold);margin:35px 0}.interpretations{max-width:610px;margin:64px auto 0;text-align:left}.interpretation-heading{display:flex;align-items:center;justify-content:center;gap:13px;color:var(--gold);font-size:8px;letter-spacing:.2em;margin-bottom:27px}.interpretation-heading .flourish{width:105px;height:16px}.interpretation{display:grid;grid-template-columns:43px 1fr;gap:20px;padding:22px 0;border-top:1px solid rgba(79,159,240,.2)}.interpretation-number{font-family:var(--display);font-size:15px;color:var(--gold);padding-top:4px}.interpretation-position{font-size:8px;letter-spacing:.18em;color:#4f8bc8;margin:0 0 5px}.interpretation h3{font-size:23px;font-weight:400;color:var(--ivory);margin:0 0 7px}.interpretation div:last-child>p:last-child{font-size:16px;line-height:1.55;color:#91bce8;font-weight:300;margin:0}.closing-note{text-align:center;font-size:19px;font-style:italic;line-height:1.5;color:#b5d4f7;margin:37px 0 0}.result-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:35px}.result-actions .outline-button{font-size:8px}.quiet-button{background:none;border:0;color:#6fa8e5;font-size:8px;letter-spacing:.16em;cursor:pointer;padding:12px}.quiet-button:hover{color:white}.closing-section{text-align:center;padding:75px 20px 110px;border-top:1px solid rgba(79,159,240,.16)}.closing-section>.flourish{margin:0 auto 18px}.closing-section>p{font-size:8px;letter-spacing:.2em;color:var(--gold);margin:0 0 18px}.closing-section h2{font-size:44px}.closing-section .text-link{display:inline-block;margin-top:27px}footer{border-top:1px solid rgba(79,159,240,.17);min-height:108px;padding:22px 7%;display:flex;align-items:center;justify-content:space-between;max-width:1280px;margin:auto}.footer-mark{font-size:17px}.footer-copy{font-size:8px;line-height:1.8;letter-spacing:.16em;color:#78aee8;text-align:center}.footer-copy span{font-size:7px;color:#4775a8}.footer-links{display:flex;align-items:center;gap:22px}.footer-links a{font-size:8px}.footer-links a:last-child{display:flex}.site-shell:after{content:"";position:absolute;pointer-events:none;inset:0;opacity:.08;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E")}
+@keyframes appear{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}@keyframes cardIn{to{opacity:1;transform:translateY(0)}}
+@media(max-width:700px){.topbar{height:68px;padding:0 7%}.menu-toggle{display:block;z-index:4}.nav{display:none;position:absolute;top:67px;right:5%;z-index:5;min-width:190px;padding:20px;background:#07090d;border:1px solid var(--hairline);flex-direction:column;align-items:flex-start;gap:18px}.nav.open{display:flex}.nav a{font-size:9px}.side-ornament{width:145px;opacity:.28;top:110px}.side-ornament.left{left:-91px}.side-ornament.right{right:-91px}.hero{min-height:650px;padding:75px 15px 70px}.sigil{width:128px;height:128px;margin-top:43px}.hero h1{font-size:clamp(38px,10vw,60px)}.hero-copy{font-size:17px}.hero-meta{font-size:7px;gap:9px;letter-spacing:.13em}.intro-section,.reading-section{padding:65px 8% 80px}.section-label{gap:10px;font-size:7px}.section-label .flourish{width:58px}.intro-grid{grid-template-columns:1fr;gap:28px;margin-top:45px}.intro-grid h2{font-size:42px}.intro-text p{font-size:16px}.reading-heading{margin:48px 0 30px}.ritual-form-wrap{grid-template-columns:1fr;gap:20px;max-width:390px}.deck-preview{height:220px;order:0}.preview-card{width:115px;height:177px}.ritual-form{order:1}.cards-row{gap:13px}.tarot-frame{padding:4px}.card-position{font-size:7px;letter-spacing:.12em}.card-caption h3{font-size:11px;letter-spacing:0;margin-top:15px}.card-caption p{font-size:10px;line-height:1.3}.interpretations{margin-top:50px}.interpretation{gap:12px}.interpretation h3{font-size:21px}.interpretation div:last-child>p:last-child{font-size:15px}.interpretation-heading{gap:7px;font-size:7px}.interpretation-heading .flourish{width:58px}.closing-section{padding:62px 15px 80px}.closing-section h2{font-size:38px}footer{padding:22px 7%;gap:15px}.footer-copy{font-size:6px}.footer-links{gap:11px}.footer-links a{font-size:6px}}
+@media(max-width:380px){.hero-meta{flex-direction:column;gap:6px}.cards-row{gap:9px}.card-caption h3{font-size:10px}.card-caption p{font-size:9px}.footer-links{gap:8px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Responsive editorial layout refinements */
+.site-shell{min-height:100svh;isolation:isolate}
+.side-ornament{top:0;height:100%;min-height:100%;width:clamp(150px,17vw,290px);opacity:.42}
+.side-ornament.left{left:-42px}
+.side-ornament.right{right:-42px}
+.topbar{width:100%;max-width:none;padding-inline:clamp(28px,7vw,120px)}
+.hero{min-height:calc(100svh - 82px);justify-content:center;padding:clamp(52px,7vh,100px) 24px}
+.hero h1{font-size:clamp(64px,9.2vw,142px);letter-spacing:.035em;white-space:nowrap}
+.hero h1 em{font-style:normal;font-weight:400;color:var(--ivory)}
+.hero-copy{font-size:clamp(19px,1.65vw,25px)}
+.hero-meta{font-size:clamp(9px,.72vw,12px)}
+.text-link{font-size:clamp(10px,.8vw,13px)}
+.enter-ritual{appearance:none;background:transparent;border:0;border-bottom:1px solid rgba(79,159,240,.48);font-family:var(--display);cursor:pointer;padding:0 0 9px}
+.enter-ritual:hover{color:white;border-color:white}
+.intro-section,.reading-section{width:min(100% - 2 * clamp(34px,13vw,230px),1500px);max-width:1500px;padding:clamp(82px,8vw,130px) clamp(26px,5vw,90px) clamp(100px,9vw,150px)}
+.intro-grid{gap:clamp(50px,10vw,170px)}
+.intro-grid h2,.reading-heading h2{font-size:clamp(44px,5.2vw,76px)}
+.intro-text{max-width:560px}
+.intro-text p{font-size:clamp(18px,1.45vw,22px)}
+.reading-heading{margin:clamp(55px,6vw,95px) 0 50px}
+.reading-heading>p:last-child{font-size:clamp(17px,1.35vw,21px)}
+.ritual-form-wrap{max-width:1000px;gap:clamp(55px,8vw,130px)}
+.deck-preview{height:clamp(280px,27vw,390px)}
+.preview-card{width:clamp(145px,12vw,190px);height:auto;aspect-ratio:2/3}
+.ritual-form label{font-size:clamp(10px,.8vw,13px)}
+.ritual-form input,.ritual-form textarea{font-size:clamp(17px,1.2vw,20px);padding:15px 17px}
+.outline-button{min-height:52px;height:auto;padding:14px 24px;font-size:clamp(10px,.78vw,13px)}
+.form-footnote,.card-position,.interpretation-position{font-size:10px}
+.results{max-width:1100px}
+.cards-row{max-width:900px;gap:clamp(30px,4vw,65px)}
+.tarot-frame{max-width:230px}
+.card-caption h3{font-size:clamp(16px,1.2vw,20px)}
+.card-caption p{font-size:14px}
+.interpretations{max-width:760px}
+.interpretation div:last-child>p:last-child{font-size:clamp(17px,1.2vw,20px)}
+.closing-section h2{font-size:clamp(46px,5vw,72px)}
+footer{max-width:none;padding-inline:clamp(28px,7vw,120px)}
+@media(max-width:900px){
+  .side-ornament{width:clamp(120px,20vw,180px);opacity:.28}
+  .side-ornament.left{left:-76px}.side-ornament.right{right:-76px}
+  .intro-section,.reading-section{width:calc(100% - 90px);padding-inline:6%}
+  .hero h1{font-size:clamp(54px,10vw,90px)}
+}
+@media(max-width:700px){
+  .hero{min-height:calc(100svh - 68px);padding:55px 18px 65px}
+  .hero h1{font-size:clamp(42px,11.2vw,76px);white-space:normal}
+  .hero-copy{font-size:17px}
+  .side-ornament{top:0;height:100%;min-height:100%;width:125px;opacity:.23}
+  .side-ornament.left{left:-87px}.side-ornament.right{right:-87px}
+  .intro-section,.reading-section{width:calc(100% - 34px);padding:65px 7% 80px}
+  .intro-grid h2,.reading-heading h2{font-size:clamp(39px,9vw,52px)}
+  .ritual-form-wrap{max-width:440px}
+  .deck-preview{height:230px}
+  .preview-card{width:115px;height:177px}
+  .cards-row{gap:12px}
+  .tarot-frame{max-width:100%;padding:4px}
+  .card-caption h3{font-size:clamp(10px,2.8vw,14px)}
+  .card-caption p{font-size:10px}
+  .interpretation div:last-child>p:last-child{font-size:15px}
+  footer{padding-inline:6%;}
+}
+@media(max-width:380px){.hero h1{font-size:42px}.side-ornament{opacity:.17}}
+
+/* ===== User-requested visual refinement ===== */
+.site-shell{background:#030305!important}
+.site-shell:after{display:none!important}
+/* Larger editorial typography everywhere except the main wordmark/title. */
+.nav a,.footer-links a{font-size:12px}
+.eyebrow{font-size:12px}
+.hero-copy{font-size:clamp(22px,1.9vw,28px)}
+.section-label{font-size:11px}
+.dropcap{font-size:24px}
+.intro-text p{font-size:clamp(20px,1.55vw,24px)}
+.small-note{font-size:10px}
+.reading-heading .eyebrow{font-size:11px}
+.reading-heading>p:last-child{font-size:clamp(19px,1.45vw,23px)}
+.ritual-form label{font-size:13px}
+.ritual-form label span{font-size:11px}
+.ritual-form input,.ritual-form textarea{font-size:19px}
+.form-footnote{font-size:11px}
+.outline-button{font-size:12px}
+.card-position{font-size:11px}
+.card-caption h3{font-size:clamp(19px,1.35vw,23px)}
+.card-caption p{font-size:16px}
+.card-index{font-size:11px}
+.result-greeting{font-size:24px}
+.shuffling-note{font-size:12px}
+.interpretation-position{font-size:11px}
+.interpretation h3{font-size:27px}
+.interpretation div:last-child>p:last-child{font-size:clamp(19px,1.35vw,22px)}
+.interpretation-number{font-size:18px}
+.interpretation-heading{font-size:11px}
+.closing-note{font-size:23px}
+.result-actions .outline-button,.quiet-button{font-size:11px}
+.closing-section>p{font-size:11px}
+.footer-copy{font-size:10px}
+.footer-copy span{font-size:9px}
+
+/* Full-height side engraving, visible from the very top to the very bottom. */
+.side-ornament{
+  position:absolute;z-index:0;top:0;bottom:0;height:100%;min-height:100%;
+  width:clamp(190px,22vw,350px);max-width:27vw;opacity:.9;
+  pointer-events:none;overflow:visible;
+}
+.side-ornament.left{left:0}
+.side-ornament.right{right:0;transform:scaleX(-1)}
+.side-ornament path,.side-ornament circle{
+  vector-effect:non-scaling-stroke;
+}
+.side-ornament path{
+  stroke-dasharray:1000;stroke-dashoffset:1000;
+  animation:ornament-draw 3.6s cubic-bezier(.45,.05,.25,1) forwards;
+}
+.side-ornament .ornament-main path{animation-duration:4.2s}
+.side-ornament .ornament-fine path{animation-duration:4.8s;animation-delay:.25s}
+.side-ornament .ornament-flowers path,.side-ornament .ornament-flowers circle{animation:ornament-appear 1.2s ease-out 2s both}
+.side-ornament .ornament-stars path{animation:ornament-appear 1s ease-out 2.5s both}
+@keyframes ornament-draw{to{stroke-dashoffset:0}}
+@keyframes ornament-appear{from{opacity:0}to{opacity:1}}
+@media(max-width:900px){
+  .side-ornament{width:clamp(145px,23vw,205px);max-width:29vw;opacity:.72}
+  .side-ornament.left{left:-4px}.side-ornament.right{right:-4px}
+}
+@media(max-width:700px){
+  .side-ornament{width:clamp(118px,29vw,155px);max-width:32vw;opacity:.56}
+  .side-ornament.left{left:-12px}.side-ornament.right{right:-12px}
+  .hero-copy{font-size:19px}
+  .section-label{font-size:9px}
+  .intro-text p{font-size:18px}
+  .small-note{font-size:9px}
+  .reading-heading>p:last-child{font-size:17px}
+  .ritual-form label{font-size:12px}
+  .ritual-form input,.ritual-form textarea{font-size:17px}
+  .outline-button{font-size:11px}
+  .card-caption h3{font-size:clamp(13px,3.3vw,17px)}
+  .card-caption p{font-size:12px}
+  .interpretation h3{font-size:23px}
+  .interpretation div:last-child>p:last-child{font-size:17px}
+  .closing-note{font-size:19px}
+  .footer-copy{font-size:8px}
+}
+@media(prefers-reduced-motion:reduce){
+  .side-ornament path{stroke-dashoffset:0;animation:none}
+  .side-ornament .ornament-flowers path,.side-ornament .ornament-flowers circle,.side-ornament .ornament-stars path{opacity:1;animation:none}
+}
+
+
+/* V4: keep the side engraving in its natural proportions and repeat it vertically. */
+.ornament-track{
+  position:absolute;z-index:0;top:0;bottom:0;width:clamp(235px,25vw,390px);
+  display:flex;flex-direction:column;align-items:stretch;overflow:hidden;
+  pointer-events:none;opacity:.96;
+}
+.ornament-track.left{left:0}
+.ornament-track.right{right:0}
+.ornament-track .side-ornament{
+  position:relative;top:auto;left:auto;right:auto;bottom:auto;
+  display:block;flex:0 0 auto;width:100%;height:auto;min-height:0;max-width:none;
+  opacity:1;overflow:visible;
+}
+.ornament-track.right .side-ornament{transform:scaleX(-1)}
+/* Card names share one centered title area; long names use a slightly smaller size. */
+.card-caption h3{
+  min-height:2.45em;display:flex;align-items:center;justify-content:center;
+  line-height:1.12;text-align:center;margin:15px 0 5px;padding:0 2px;
+}
+.card-caption h3.card-title-long{
+  font-size:clamp(15px,1.05vw,18px);letter-spacing:.025em;
+  max-width:100%;
+}
+@media(max-width:900px){
+  .ornament-track{width:clamp(190px,25vw,245px);}
+}
+@media(max-width:700px){
+  .ornament-track{width:clamp(155px,31vw,195px);opacity:.82}
+  .card-caption h3{min-height:2.45em;margin-top:13px}
+  .card-caption h3.card-title-long{font-size:clamp(11px,2.75vw,14px);letter-spacing:0}
+}
+
+
+/* V5: richer, more saturated blue accents and clearer closing navigation. */
+:root{--blue:#4f9ff0;--pale:#a4ccf5;--muted:#568fc9;--hairline:rgba(79,159,240,.52)}
+.hero-copy{color:#b9d8fb}
+.intro-text p,.interpretation div:last-child>p:last-child{color:#91bce8}
+.reading-heading>p:last-child,.card-caption p{color:#78aee8}
+.section-label,.interpretation-position{color:#568fc9}
+.nav a,.footer-links a,.ritual-form label,.outline-button{color:#a4ccf5}
+.closing-section .text-link{font-size:clamp(15px,1.15vw,18px);letter-spacing:.2em}
+@media(max-width:700px){.closing-section .text-link{font-size:14px}}
+
+
+/* V6: slightly quieter hero title, deeper side engraving, mirrored left flourish. */
+.hero h1{font-size:clamp(41px,6.6vw,77px)}
+.ornament-track{opacity:1}
+.ornament-track .side-ornament{opacity:1}
+.interpretation-heading .flourish:first-child{transform:scaleX(-1)}
+
+
+/* V7 alignment and ornament cleanup */
+footer{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  align-items:center;
+}
+.footer-mark{justify-self:start}
+.footer-copy{justify-self:center;text-align:center}
+.footer-links{justify-self:end}
+.enter-ritual span{display:none}
+/* Keep all ornamental strokes inside their viewBox; leaves have been removed. */
+.ornament-track{overflow:visible}
+.ornament-track .side-ornament{overflow:visible}
+@media(max-width:700px){
+  footer{grid-template-columns:1fr auto 1fr;gap:10px;padding-inline:5%}
+  .footer-copy{justify-self:center}
+  .footer-links{justify-self:end}
+}
+
+
+/* V8: contain the repeated side engraving within the actual page height. */
+.ornament-track{overflow:hidden!important}
+.ornament-track .side-ornament{overflow:visible}
+.ornament-track{overflow:clip!important;contain:paint}
